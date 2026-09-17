@@ -3029,7 +3029,11 @@
           "src/main/session-plan/plan-context-file.shell.integration.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/process-tree.windows.integration.test.ts",
+          "src/main/delegation/frame-workspace.test.ts",
+          "src/main/acp/agent-process.test.ts"
         ]
       },
       "capabilityOverlays": ["windows_sensitive", "e2e_regressions", "e2e_delegation"],
@@ -3795,7 +3799,11 @@
           "src/main/settings/responses-bridge.plan-tools.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/process-tree.windows.integration.test.ts",
+          "src/main/delegation/frame-workspace.test.ts",
+          "src/main/acp/agent-process.test.ts"
         ]
       },
       "capabilityOverlays": ["windows_sensitive", "e2e_regressions", "e2e_delegation"],
@@ -4323,7 +4331,11 @@
           "src/main/credential-identity/macos.test.ts",
           "src/main/credential-identity/probe-logging.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/process-tree.windows.integration.test.ts",
+          "src/main/delegation/frame-workspace.test.ts",
+          "src/main/acp/agent-process.test.ts"
         ]
       },
       "capabilityOverlays": ["windows_sensitive", "e2e_regressions", "e2e_delegation"],
@@ -8440,7 +8452,9 @@
           "src/main/acp/task-agent-port.test.ts",
           "src/main/acp/turn-skill-owner.test.ts",
           "src/main/acp/vision-evidence-repository.test.ts",
-          "src/main/acp/workspace-path.test.ts"
+          "src/main/acp/workspace-path.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/process-tree.windows.integration.test.ts"
         ],
         "contract": [
           "src/main/agent-framework/app-mcp-names.test.ts",
@@ -8810,7 +8824,8 @@
           "src/main/settings/responses-bridge.plan-tools.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/frame-workspace.test.ts"
         ]
       },
       "capabilityOverlays": ["windows_sensitive", "e2e_regressions", "e2e_delegation"],
@@ -9502,7 +9517,8 @@
         "packages/process-tree-native/index.cjs",
         "packages/process-tree-native/index.d.ts",
         "packages/process-tree-native/package.json",
-        "packages/process-tree-native/src/process_tree_native.cc"
+        "packages/process-tree-native/src/process_tree_native.cc",
+        "packages/process-tree-native/src/windows_owned_process.cc"
       ],
       "interfacePaths": ["packages/process-tree-native/index.cjs"],
       "consumerModules": [],
@@ -10014,7 +10030,11 @@
           "src/main/settings/responses-bridge.plan-tools.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/process-tree.windows.integration.test.ts",
+          "src/main/delegation/frame-workspace.test.ts",
+          "src/main/acp/agent-process.test.ts"
         ]
       },
       "capabilityOverlays": ["notebook_network_sandbox", "windows_sensitive"],
@@ -10825,7 +10845,11 @@
           "src/main/settings/responses-bridge.plan-tools.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/process-tree.windows.integration.test.ts",
+          "src/main/delegation/frame-workspace.test.ts",
+          "src/main/acp/agent-process.test.ts"
         ]
       },
       "capabilityOverlays": ["e2e_regressions", "e2e_delegation", "windows_sensitive"],
@@ -11284,7 +11308,9 @@
         "src/main/credential-identity/windows-profile-key.test.ts",
         "src/main/credential-identity/windows-profile-key.ts",
         "src/main/credential-identity/macos.test.ts",
-        "src/main/credential-identity/probe-logging.test.ts"
+        "src/main/credential-identity/probe-logging.test.ts",
+        "src/main/process-tree-windows.ts",
+        "src/main/process-tree.windows.integration.test.ts"
       ],
       "interfacePaths": [
         "src/main/app-lifecycle.ts",
@@ -11335,7 +11361,8 @@
         "src/main/windows-powershell.ts",
         "src/main/credential-identity/bootstrap.ts",
         "src/main/credential-identity/runtime.ts",
-        "src/main/credential-identity/selection.ts"
+        "src/main/credential-identity/selection.ts",
+        "src/main/process-tree-windows.ts"
       ],
       "consumerModules": [],
       "testFiles": {
@@ -11418,7 +11445,8 @@
           "src/main/credential-identity/sqlite-snapshot.test.ts",
           "src/main/credential-identity/windows-profile-key.test.ts",
           "src/main/credential-identity/macos.test.ts",
-          "src/main/credential-identity/probe-logging.test.ts"
+          "src/main/credential-identity/probe-logging.test.ts",
+          "src/main/process-tree.windows.integration.test.ts"
         ],
         "contract": [
           "src/preload/index.test.ts",
@@ -12193,7 +12221,9 @@
           "src/main/session-plan/plan-legacy-compatibility.test.ts",
           "src/main/settings/responses-bridge.plan-tools.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/delegation/frame-workspace.test.ts"
         ]
       },
       "capabilityOverlays": ["e2e_regressions", "e2e_delegation", "windows_sensitive"],
@@ -17927,7 +17957,9 @@
         "src/main/delegation/structured-output-owner.test.ts",
         "src/main/delegation/structured-output-submission.ts",
         "src/main/delegation/structured-output.test.ts",
-        "src/main/delegation/structured-output.ts"
+        "src/main/delegation/structured-output.ts",
+        "src/main/delegation/process-ownership.ts",
+        "src/main/delegation/process-ownership.test.ts"
       ],
       "interfacePaths": [
         "src/main/delegation/delegated-artifact-publication.ts",
@@ -17945,7 +17977,8 @@
         "src/main/delegation/settlement-continuation-dispatch.ts",
         "src/main/delegation/structured-output.ts",
         "src/main/delegation/certification-contract.test.ts",
-        "src/main/delegation/execution-contract.test.ts"
+        "src/main/delegation/execution-contract.test.ts",
+        "src/main/delegation/process-ownership.ts"
       ],
       "consumerModules": [],
       "testFiles": {
@@ -17975,7 +18008,8 @@
           "src/main/delegation/settlement-continuation-dispatch.test.ts",
           "src/main/delegation/specialist-runtime-consumption.test.ts",
           "src/main/delegation/structured-output-owner.test.ts",
-          "src/main/delegation/structured-output.test.ts"
+          "src/main/delegation/structured-output.test.ts",
+          "src/main/delegation/process-ownership.test.ts"
         ],
         "contract": [
           "src/preload/index.test.ts",
@@ -18375,7 +18409,9 @@
           "src/main/settings/responses-bridge.plan-tools.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/process-tree.windows.integration.test.ts",
+          "src/main/acp/agent-process.test.ts"
         ]
       },
       "capabilityOverlays": ["e2e_regressions", "e2e_delegation", "windows_sensitive"],
@@ -24391,7 +24427,10 @@
           "src/main/session-plan/plan-context-file.shell.integration.test.ts",
           "src/main/settings/provider-runtime-health-owner.test.ts",
           "src/renderer/src/lib/session-persistence/session-persistence.test.ts",
-          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts"
+          "src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts",
+          "src/main/delegation/process-ownership.test.ts",
+          "src/main/process-tree.windows.integration.test.ts",
+          "src/main/delegation/frame-workspace.test.ts"
         ]
       },
       "capabilityOverlays": ["e2e_regressions", "e2e_delegation", "windows_sensitive"],
