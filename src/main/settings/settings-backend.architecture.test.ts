@@ -1461,7 +1461,11 @@ describe('Settings backend ownership architecture', () => {
       'src/shared/renderer-surface-matrix.test.ts',
       'src/main/session-package/fork.test.ts',
       'src/renderer/src/lib/session-persistence/session-persistence.test.ts',
-      'src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts'
+      'src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts',
+      'src/main/delegation/process-ownership.test.ts',
+      'src/main/process-tree.windows.integration.test.ts',
+      'src/main/delegation/frame-workspace.test.ts',
+      'src/main/acp/agent-process.test.ts'
     ])
     expect(
       [

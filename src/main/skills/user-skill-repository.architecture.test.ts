@@ -887,7 +887,11 @@ describe('User Skill repository architecture', () => {
           'src/main/session-plan/plan-context-file.shell.integration.test.ts',
           'src/main/settings/provider-runtime-health-owner.test.ts',
           'src/renderer/src/lib/session-persistence/session-persistence.test.ts',
-          'src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts'
+          'src/renderer/src/pages/workspace/workspace-message-queue-controller.test.ts',
+          'src/main/delegation/process-ownership.test.ts',
+          'src/main/process-tree.windows.integration.test.ts',
+          'src/main/delegation/frame-workspace.test.ts',
+          'src/main/acp/agent-process.test.ts'
         ]
       },
       capabilityOverlays: ['windows_sensitive', 'e2e_regressions', 'e2e_delegation'],
